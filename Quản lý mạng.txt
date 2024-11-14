@@ -1,0 +1,18 @@
+1. Kiểm tra kết nối tới một địa chỉ IP hoặc tên miền
+ping <địa chỉ IP hoặc tên miền>
+vd: ping google.com
+Lệnh này sẽ gửi gói tin tới google.com và hiển thị kết quả trả về, giúp kiểm tra xem thiết bị có kết nối Internet không.
+
+2. Hiển thị thông tin cấu hình mạng
+ipconfig
+lệnh này sẽ hiển thị thông tin cấu hình của tất cả các adapter mạng trên máy tính
+
+
+3.Xem các mạng wifi đã lưu của tài khoản
+
+netsh wlan show profiles
+
+4.Xem mật khẩu của một mạng wifi mà máy tính đã lưu
+
+netsh wlan show profile name="<Tên_WiFi>" key=clear
+

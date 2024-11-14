@@ -1,0 +1,9 @@
+1. Cài đặt phần mềm
+winget instal <tên phần mềm>
+vd: winget install Google.Chrome
+2. Tìm kiếm phần mềm
+winget search <tên phần mềm>
+vd: winget search Spotify
+3. Liệt kê phần mềm đã cài đặt
+winget list
+4. 
