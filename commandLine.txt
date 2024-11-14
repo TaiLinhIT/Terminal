@@ -1,0 +1,72 @@
+1 lệnh tạo mới thư mục
+mkdir <ten thư mục>
+
+2 lệnh tạo mới file
+echo>><tên file>
+type nul > <tên file>
+
+3 Xem nội dung tệp tin (type, more)
+
+type file_name: Hiển thị nội dung của tệp tin file_name.
+more file_name: Xem nội dung của tệp tin theo trang.
+
+4 Sao chép và di chuyển tệp tin/thư mục (copy, move)
+
+copy file_name copy_name: Sao chép file_name thành copy_name.
+move file_name new_name: Đổi tên file_name thành new_name.
+move file_name folder_name\: Di chuyển file_name vào folder_name.
+
+5 Xóa tệp tin và thư mục (del, rmdir)
+
+del file_name: Xóa tệp tin file_name.
+rmdir /s /q folder_name: Xóa thư mục folder_name và toàn bộ nội dung bên trong.
+rmdir folder_name: Xóa thư mục rỗng folder_name.
+
+6 Kiểm tra vị trí hiện tại (cd)
+
+cd: Hiển thị đường dẫn của thư mục hiện tại.
+
+7 Tìm kiếm chuỗi trong tệp tin (findstr)
+
+findstr "text" file_name: Tìm kiếm chuỗi text trong tệp tin file_name.
+findstr /i "text" file_name: Tìm kiếm không phân biệt hoa thường.
+
+8 Kiểm tra tiến trình và tài nguyên hệ thống (tasklist)
+
+tasklist: Liệt kê tất cả các tiến trình đang chạy.
+
+9 Chỉnh quyền truy cập tệp tin/thư mục (icacls)
+
+icacls file_name /grant User:F: Cấp toàn quyền cho tệp file_name cho người dùng hiện tại.
+
+
+
+
+
+
+
+
+
+làm việc với flag
+
+1. Liệt kê tất cả các tệp trong thư mục bao gồm cả tệp ẩn
+
+dir /a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

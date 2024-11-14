@@ -1,0 +1,38 @@
+1. Xem danh sách người dùng trong hệ thống
+net user
+kết quả ra:
+User accounts for \\DEV01
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest
+USER                     WDAGUtilityAccount
+The command completed successfully.
+
+
+User accounts for \DEV01:
+
+\\DEV01 là tên của máy tính của bạn (hoặc máy chủ). Đây là nơi các tài khoản người dùng được liệt kê.
+Danh sách tài khoản người dùng:
+
+Dưới dòng ------------------------------------------------------------------------------- là các tài khoản người dùng có trên máy tính của bạn.
+Các tài khoản này bao gồm:
+
+Administrator: Đây là tài khoản quản trị mặc định có quyền truy cập và điều khiển toàn bộ hệ thống. Tài khoản này thường được sử dụng để quản lý cài đặt, phần mềm và các tài khoản người dùng khác.
+
+DefaultAccount: Đây là một tài khoản hệ thống do Windows tạo ra, không phải là tài khoản người dùng. Nó được dùng để hỗ trợ một số chức năng của hệ điều hành và không nên bị xóa hoặc chỉnh sửa.
+
+Guest: Đây là tài khoản dành cho người dùng khách, cho phép truy cập hạn chế vào máy tính mà không cần tạo tài khoản riêng. Tài khoản này thường bị vô hiệu hóa theo mặc định.
+
+USER: Đây là tài khoản người dùng có tên USER. Tài khoản này có thể là tài khoản bạn hoặc một người khác đã tạo ra để sử dụng máy tính với quyền truy cập hạn chế hoặc toàn quyền tùy vào thiết lập quyền của tài khoản.
+
+WDAGUtilityAccount: Đây là tài khoản được sử dụng bởi tính năng Windows Defender Application Guard (WDAG). Tài khoản này cũng do hệ thống tạo ra và được sử dụng khi chạy các ứng dụng trong môi trường bảo vệ.
+
+The command completed successfully:
+
+Dòng này chỉ đơn giản là thông báo rằng lệnh net user đã được thực hiện thành công mà không gặp lỗi gì.
+
+
+
+
+
+2. 
