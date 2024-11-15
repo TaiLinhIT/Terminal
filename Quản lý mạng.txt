@@ -16,3 +16,24 @@ netsh wlan show profiles
 
 netsh wlan show profile name="<Tên_WiFi>" key=clear
 
+5.Xem thông tin DNS của một tên miền
+
+nslookup <tên miền>
+ vd: nslookup http://10.30.0.21:8088/sliders/list-video
+C:\Users\USER>nslookup http://10.30.0.21:8088/sliders/list-video
+DNS request timed out.
+    timeout was 2 seconds.
+Server:  UnKnown
+Address:  10.30.0.10
+
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+*** Request to UnKnown timed-out
+
+
